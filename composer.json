@@ -5,7 +5,7 @@
   "keywords": [
     "php",
     "swoole",
-    "hyperf",
+    "fend",
     "websocket",
     "im",
     "room chat"
@@ -15,14 +15,13 @@
   "autoload": {
     "psr-4": {
       "App\\": "./app",
-      "Installer\\": "./installer"
+      "Src\\": "./src"
     }
   },
   "autoload-dev": {
     "psr-4": {
       "App\\": "./app",
-      "Test\\App\\": "./tests/app",
-      "Installer\\": "./installer"
+      "Test\\App\\": "./tests/app"
     }
   },
   "require": {
